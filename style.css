@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@600;700;800&family=Lobster&family=Montserrat:wght@500;700&family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.first-section {
+    background-color: #161616;
+    border-radius: 30px;
+    color: white;
+
+    width: 85%;
+    height: 630px;
+
+    margin-left: 120px;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-info {
+    padding-left: 140px;
+
+}
+
+.head-info h1 {
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    animation: text 3s 1
+}
+
+.head-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.head-img {
+
+
+    margin-right: 79px;
+    margin-top: 33px;
+
+
+
+}
+
+.head-img>img {
+    width: 400px;
+
+    height: 600px;
+}
+
+.btn {
+    background: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    border: none;
+}
+
+.btn a {
+    color: white;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+.second-section {
+    display: flex;
+}
+
+.menus {
+    width: 250px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+    margin-left: 140px;
+    display: grid;
+    grid-template-rows: (3, 1fr);
+    row-gap: 30px;
+    /* margin-bottom: 30px;
+    margin-top: 30px; */
+    padding: 30px 30px 30px 30px;
+
+}
+
+.menu {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 200px;
+    height: 64px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.menu h3 {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+#custom {
+    background-color: #DD0000;
+    color: white;
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    /* border: 1px solid grey;
+    border-radius: 5px */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes text {
+    from {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+
+    to {}
+}
