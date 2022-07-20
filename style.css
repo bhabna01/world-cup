@@ -24,7 +24,6 @@ body {
 
 .head-info {
     padding-left: 140px;
-
 }
 
 .head-info h1 {
@@ -38,22 +37,15 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
 }
 
 .head-img {
-
-
     margin-right: 79px;
     margin-top: 33px;
-
-
-
 }
 
 .head-img>img {
     width: 400px;
-
     height: 600px;
 }
 
@@ -75,8 +67,6 @@ body {
 
 .second-section {
     display: flex;
-
-
 }
 
 .menus {
@@ -89,10 +79,6 @@ body {
     display: grid;
     grid-template-rows: (3, 1fr);
     row-gap: 5px;
-
-
-
-
 }
 
 .menu a {
@@ -109,23 +95,18 @@ body {
     margin-left: 30px;
     margin-right: 40px;
     margin-top: 25px;
-
-
 }
 
 .menu h3 {
     font-weight: 400;
     font-size: 16px;
-
 }
 
 .custom {
     background-color: #DD0000;
-
 }
 
 .custom a {
-
     color: white;
 }
 
@@ -135,10 +116,6 @@ body {
     column-gap: 10px;
     row-gap: 10px;
     margin-bottom: 120px;
-
-
-
-
 }
 
 .blog {
@@ -171,7 +148,6 @@ body {
 
 .matches {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 10px;
@@ -179,13 +155,11 @@ body {
 }
 
 .match {
-
     width: 312px;
     height: 242px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     justify-content: center;
     padding-top: 20px;
-
 }
 
 .match-img {
@@ -199,7 +173,6 @@ body {
 .match img {
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .match-info {
@@ -211,22 +184,18 @@ body {
 
 footer {
     background-color: #161616;
-
     height: 444px;
     color: white;
-
     text-align: center;
 }
 
 footer h3 {
     font-size: 40px;
-
 }
 
 .footer {
     padding-top: 50px;
 }
-
 
 hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -240,11 +209,9 @@ hr {
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 30px;
-
 }
 
 .social {
-
     font-size: 30px;
     padding: 10px 10px 10px 10px;
 }
@@ -268,7 +235,6 @@ hr {
     }
 
     .head-info h1 {
-
         font-size: 22px;
         line-height: 33px;
         text-align: center;
@@ -296,7 +262,6 @@ hr {
         top: -50px;
         left: 60px;
         margin-top: 24px;
-
     }
 
     .second-section {
@@ -326,7 +291,6 @@ hr {
 
     .footer-info {
         display: flex;
-
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -351,24 +315,20 @@ hr {
     .first-section {
         width: 80%;
         height: 472px;
-
         margin-left: 80px;
         margin-top: 30px;
 
     }
 
     .head-info h1 {
-
         font-size: 40px;
         line-height: 35px;
-
         animation: none;
     }
 
     .first-section img {
         position: relative;
         width: 323px;
-
         height: 340px;
         top: 40px;
         left: 20px;
@@ -384,7 +344,6 @@ hr {
         margin-left: 50px;
         background: #FFFFFF;
         margin-top: -120px;
-
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -403,17 +362,11 @@ hr {
 
     .footer-info {
         display: flex;
-
-
-
         margin-top: -20px;
         margin-right: 50px;
         margin-left: 50px;
 
     }
-
-
-
 
 
 }
