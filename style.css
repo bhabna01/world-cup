@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 
 .first-section {
@@ -243,16 +244,20 @@ hr {
     padding: 10px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-device-width : 320px) and (max-device-width: 450px) {
     .first-section {
-        width: 75%;
+        width: 80%;
         height: 472px;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
+        margin-left: 30px;
+        margin-top: 30px;
+
     }
 
     .head-info {
-        margin-left: -130px;
+        margin-left: -100px;
+        padding-right: 40px;
     }
 
     .head-info h1 {
@@ -260,30 +265,79 @@ hr {
         font-size: 22px;
         line-height: 33px;
         text-align: center;
+        animation: none;
     }
 
     .head-info p {
         text-align: center;
+        font-size: 10px;
         margin-top: -20px;
-    }
-
-
-
-    .first-section img {
-        position: relative;
-        width: 95%;
-        height: 245px;
-        top: -40px;
-        left: 60px;
-
+        line-height: 20px;
     }
 
     .btn {
         margin-top: -7px;
         margin-bottom: 7px;
-        margin-left: 70px;
+        margin-left: 5px;
     }
+
+
+    .first-section img {
+        position: relative;
+        width: 95%;
+        height: 200px;
+        top: -50px;
+        left: 60px;
+        margin-top: 24px;
+
+    }
+
+    .second-section {
+        flex-direction: column;
+    }
+
+    .menus {
+        margin-left: 50px;
+        background: #FFFFFF;
+        margin-top: -120px;
+    }
+
+    .menu {
+        border: 1px solid grey;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5px;
+    }
+
+    .footer h3 {
+        margin-top: -30px;
+        font-size: 20px;
+    }
+
+    .footer-info {
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+        margin-right: 100px;
+        margin-left: 100px;
+
+    }
+
+    .footer-info span {
+        font-size: 12px;
+
+    }
+
+
+
 }
+
 
 
 @keyframes text {
